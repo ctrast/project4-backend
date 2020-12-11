@@ -7,7 +7,7 @@ TBD.
 No installation
 
 ### &#x1F535; APP URL
-<a href="#" target="_blank">#</a>
+<a href="#" target="_blank">#TBD</a>
 
 
 ### GitHub Project Repo
