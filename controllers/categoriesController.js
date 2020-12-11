@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Category = require("../models/category");
 
 //Update Route
-router.put("/:categoryid",async(req,res)=>{
+router.put("/:categoryId",async(req,res)=>{
     try{
         let foundCategory = await Category.findByIdAndUpdate(req.params.categoryId,req.body)
           res.json(foundCategory)
@@ -54,9 +54,17 @@ router.delete("/:categoryId", async (req, res) => {
       console.log(error)
       res.send('see the terminal')
     }
-    
-  // );
-
-  //redirect back to index route
 });
+//Get random category
+router.get("/getRanCat", async (req, res) => {
+  try {
+    let catCount = await Category.countDocuments({});
+    let ranNum = Math.floor(Math.random() * catCount);
+    let randomCat = await Category.find({});
+    res.json(randomCat[ranNum]);
+  } catch {
+    res.json("There is an error ");
+  }
+});
+
 module.exports = router;
