@@ -25,7 +25,7 @@ async function seed() {
 
   const BestSeller= new Category({
     name: 'Best Sellers',
-    phrases:['Whitney Houston Texas', 'Old Yeller']
+    phrases:['Gone with the wind', 'Old Yeller']
     
   });
 
