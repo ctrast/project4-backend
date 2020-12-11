@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 const categorySchema = Schema({
   name: { type: String, required: true },
   phrases: [
-    { type: String, required: true }
+    { type: Array, required: true,default: undefined }
   ],
 })
 module.exports = mongoose.model('Category', categorySchema)

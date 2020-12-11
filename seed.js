@@ -18,7 +18,10 @@ async function seed() {
   // CREATE A NEW Category
   const BeforeandAfter = new Category({
     name: "Before and After",
-    phrases: ["Whitney Houston Texas", "Stop Sign Language"],
+    phrases: [
+      ["Whitney Houston Texas", "Stop Sign Language"],
+      ["Whitney Houston Texas", "Stop Sign Language"],
+    ],
   });
 
   const BestSeller = new Category({
