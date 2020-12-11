@@ -13,16 +13,19 @@ router.put("/:categoryid",async(req,res)=>{
 });
 //Create new category
 router.post("/new", async (req, res) => {
-  console.log("here");
   let newCategory = await Category.create(req.body);
   res.json(newCategory);
 });
 
 //Index All Category
 router.get("/", async (req, res) => {
-  let allCategory = await Category.find({});
-  console.log("Req.body is: ", req.body);
-  res.json(allCategory);
+  try {
+    let allCategory = await Category.find({});
+    console.log(allCategory);
+    res.json(allCategory);
+  } catch {
+    res.json("There is an error " + allCategory);
+  }
 });
 //Delete values in Category
 router.delete("/:phraseId/:categoryId", async (req, res) => {
