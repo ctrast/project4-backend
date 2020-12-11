@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const Category = require('../models/category');
 
-//Create New Arepa to get all Ingredients
+//Create new category
 router.get("/new", async (req, res) => {
   let allCategory = await Category.find({});
   res.send(allCategory)
