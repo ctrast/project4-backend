@@ -46,16 +46,16 @@ app.use(express.json());// returns middleware that only parses JSON - may or may
 app.use(methodOverride('_method'));// allow POST, PUT and DELETE from a form
 //___________________
 // Routes
-// const arepaController = require('./controllers/arepasController.js')
-// app.use('/arepas', arepaController)
+const categoriesController = require('./controllers/categoriesController.js')
+app.use('/', categoriesController)
 
 //___________________
 //localhost:3000
-app.get('/' , (req, res) => {
-  res.send('Hello Project 4 !');
+// app.get('/' , (req, res) => {
+//   res.send('Hello Project 4 !');
   
   
-});
+// });
 //___________________
 //Listener
 //___________________
