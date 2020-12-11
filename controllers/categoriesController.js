@@ -1,16 +1,18 @@
 const router = require("express").Router();
-const Category = require('../models/category');
+const Category = require("../models/category");
 
 //Create new category
-router.get("/new", async (req, res) => {
-  let allCategory = await Category.find({});
-  res.send(allCategory)
+router.post("/new", async (req, res) => {
+  console.log("here");
+  let newCategory = await Category.create(req.body);
+  res.josn(newCategory);
 });
+
 //Index All Category
 router.get("/", async (req, res) => {
-  let allCategory= await Category.find({});
-  console.log('Req.body is: ', req.body)
-  res.send(allCategory)
+  let allCategory = await Category.find({});
+  console.log("Req.body is: ", req.body);
+  res.json(allCategory);
 });
 
 module.exports = router;
