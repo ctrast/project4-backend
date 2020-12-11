@@ -50,14 +50,24 @@ Middleware
 <li>Environment file Credential(.env) </li>
 
 </ul>
-Backend
-<ul>
-<li>Node.js</li>
-<li>RESTful Routes</li>
-<li>Database: MongoDB</li>
-<li>Data Modeling: Mongoose ODM</li>
-<li>Embedded Javascript Tempate: EJS</li>
-</ul>
+Backend 
+   <ul>
+   <li><a href="https://www.nodejs.org/"> Node.js</a></li>
+   <li>RESTful Routes <ul>
+   <li>Route methods<a href="https://expressjs.com/"> Express.js</a>
+   <li>Route Testing<a href="https://www.postman.com/"> Postman</a></li></li></ul>
+   <li>Database<a href="https://www.mongodb.com/"> MongoDB</a></li>
+   <li>Data Modeling<a href="https://www.mongoose.com/"> Mongoose ODM</a></li>
+   <ul>
+      <li>Model/Schema</li>
+      <li>MongoDB connection</li>
+      <li>Authentication</li>
+      <li>Authorization</li>
+   </ul>
+   <li>Embedded Javascript Template<a href="https://ejs.co/"> EJS</a> </li>
+   <li>Version Control<a href="https://github.com/"> Github</a> </li>
+   
+   </ul>
 
 DevOps
 <ul>
