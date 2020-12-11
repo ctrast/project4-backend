@@ -18,4 +18,16 @@ router.get("/", async (req, res) => {
   }
 });
 
+//Get random category
+router.get("/getRanCat", async (req, res) => {
+  try {
+    let catCount = await Category.countDocuments({});
+    let ranNum = Math.floor(Math.random() * catCount);
+    let randomCat = await Category.find({});
+    res.json(randomCat[ranNum]);
+  } catch {
+    res.json("There is an error ");
+  }
+});
+
 module.exports = router;
