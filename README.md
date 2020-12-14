@@ -11,7 +11,8 @@ No installation
 
 
 ### GitHub Project Repo
-<a href="#" target="_blank">GitHub Project Repo</a>
+<a href="https://github.com/d-mayo/project4-frontend/" target="_blank">React Frontend</a><br>
+<a href="https://github.com/ycjessie/project4-backend/" target="_blank">Express MongoDB Backend</a>
 
 ### &#x1F535; Project Team
 Design - Development - Layout
@@ -39,7 +40,7 @@ Design - Development - Layout
 Frontend
 <ul>
 <li>HTML - HyperTextMarkUpLanguage </li>
-<li>CSS,  </li>
+<li>CSS  </li>
 <li>JavaScript </li>
 <li>React - the JavaScript library for building user interfaces</li>
 </ul>
