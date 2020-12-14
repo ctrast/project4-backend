@@ -6,8 +6,10 @@ const express = require("express");
 const methodOverride = require("method-override");
 const expressLayouts = require("express-ejs-layouts");
 const mongoose = require("mongoose");
+const cors = require('cors')
 const app = express();
 const db = mongoose.connection;
+app.use(cors())
 //___________________
 //Port
 //___________________
