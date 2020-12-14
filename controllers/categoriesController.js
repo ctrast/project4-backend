@@ -27,23 +27,6 @@ router.get("/", async (req, res) => {
     res.json("There is an error " + allCategory);
   }
 });
-//Delete values in Category
-router.delete("/:phraseId/:categoryId", async (req, res) => {
-    console.log(req.params.phraseId)
-    console.log(req.params.categoryId)
-    //res.send('see the terminal')
-    try{
-      let foundCategory=await Category.findOneAndUpdate(
-        { _id: req.params.categoryId },
-        {$pull: { phrase:req.params.phraseId}},
-        { new: true });
-      
-        res.json(foundCategory);
-    }catch(err){
-      console.error(err);
-      res.send('see the terminal')
-    }
-});
 //Delete Route category
 router.delete("/:categoryId", async (req, res) => {
     console.log(req.params.categoryId)
