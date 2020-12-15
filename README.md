@@ -41,9 +41,10 @@ Frontend
 <ul>
 <li>HTML - Hyper Text Mark Up Language </li>
 <li>CSS, <a href="https://semantic-ui.com/i" target="_blank">Semantic UI</a></li>
-<li>JavaScript </li>
-<li>JavaScript animation <a href="https://greensock.com/gsap/" target="_blank">GreenSock</a></li>
 <li><a href="https://reactjs.org/" target="_blank">React</a>  the JavaScript library for building user interfaces</li>
+<li>JavaScript Animation <a href="https://bitworking.github.io/react-gsap/" target="_blank">GreenSock in React</a></li>
+
+
 </ul>
 Middleware
 <ul>
@@ -89,7 +90,7 @@ DevOps
 
 ### &#x1F535; Inspiration
 <ul>
-<li> <a href="https://codepen.io/twentysix/pen/abopqNp?editors=1111" target="_blank"> Wheel of fortune</a> twentysix </li>
+<li> <a href="https://codepen.io/twentysix/pen/abopqNp?editors=1111" target="_blank"> Wheel of fortune</a> by twentysix </li>
 <li> <a href="https://codepen.io/andere_s/pen/oqvroJ" target="_blank"> Wheel of fortune</a> by Andres </li>
 </ul>
 
