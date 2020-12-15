@@ -39,34 +39,34 @@ Design - Development - Layout
 
 Frontend
 <ul>
-<li>HTML - HyperTextMarkUpLanguage </li>
-<li>CSS  </li>
+<li>HTML - Hyper Text Mark Up Language </li>
+<li>CSS, <a href="https://semantic-ui.com/i" target="_blank">Semantic UI</a></li>
 <li>JavaScript </li>
-<li>React - the JavaScript library for building user interfaces</li>
+<li><a href="https://reactjs.org/" target="_blank">React</a>  the JavaScript library for building user interfaces</li>
 </ul>
 Middleware
 <ul>
 <li>Axios </li>
-
 <li>Environment file Credential(.env) </li>
+<li>Express <a href="https://expressjs.com/en/resources/middleware/cors.html" target="_blank">CORS</a></li>
 
 </ul>
 Backend 
    <ul>
-   <li><a href="https://www.nodejs.org/"> Node.js</a></li>
+   <li><a href="https://www.nodejs.org/" target="_blank"> Node.js</a></li>
    <li>RESTful Routes <ul>
-   <li>Route methods<a href="https://expressjs.com/"> Express.js</a>
-   <li>Route Testing<a href="https://www.postman.com/"> Postman</a></li></li></ul>
-   <li>Database<a href="https://www.mongodb.com/"> MongoDB</a></li>
-   <li>Data Modeling<a href="https://www.mongoose.com/"> Mongoose ODM</a></li>
+   <li>Route methods<a href="https://expressjs.com/" target="_blank"> Express.js</a>
+   <li>Route Testing<a href="https://www.postman.com/" target="_blank"> Postman</a></li></li></ul>
+   <li>Database<a href="https://www.mongodb.com/" target="_blank"> MongoDB</a></li>
+   <li>Data Modeling<a href="https://www.mongoose.com/" target="_blank"> Mongoose ODM</a></li>
    <ul>
       <li>Model/Schema</li>
       <li>MongoDB connection</li>
       <li>Authentication</li>
       <li>Authorization</li>
    </ul>
-   <li>Embedded Javascript Template<a href="https://ejs.co/"> EJS</a> </li>
-   <li>Version Control<a href="https://github.com/"> Github</a> </li>
+   <li>Embedded Javascript Template<a href="https://ejs.co/" target="_blank"> EJS</a> </li>
+   <li>Javascript Test Framework<a href="https://mochajs.org/" target="_blank"> Mocha</a> </li>
    
    </ul>
 
