@@ -30,8 +30,12 @@ Design - Development - Layout
 </ul>
 
 ### &#x1F535; User Stories
-* As a user ...
-* Stretch - As a user ...
+* As a user, can take turns spinning the wheel and then guessing a consonant in the current puzzle within 5 seconds of that spin 
+* As a user, can call a correct letter earns the value of the landed spin multiplied by the number of times that the letter appears in the puzzle
+$ As a user, when guessing correctly, they can either Buy a vowel for a flat fee of $250. A contestant can continue to buy until out of money or no vowels remain OR Attempt to solve the puzzle OR Spin again and take another guess (unless their spin lands on a turn-losing space like bankrupt)
+ 
+
+* Stretch - As a user can run the Mocha javascrip testing
 
 
 ### &#x1F535; **Technologies Used**
@@ -80,9 +84,6 @@ DevOps
 ### &#x1F535; **Components**
 ![Components](https://github.com/ycjessie/project4-backend/blob/master/public/image/Components.png)
 
-### &#x1F535; Stretch Goals:
-#### Recommended Features
-*  
 
 ### &#x1F535; Future Enhancement
 <ul>
