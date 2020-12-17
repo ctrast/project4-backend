@@ -77,6 +77,8 @@ DevOps
 <li>Heroku - Platform as a service (PaaS) used to build and deploy applications</li>
 </ul>
 
+### &#x1F535; **Components**
+![Components](https://github.com/ycjessie/project4-backend/public/image/Components.png)
 
 ### &#x1F535; Stretch Goals:
 #### Recommended Features
