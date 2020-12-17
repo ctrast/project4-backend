@@ -36,11 +36,6 @@ Design - Development - Layout
 * As an admin user, can seed the database
 * As an admin user, can create new categories with phrases to the database
 * As an admin user, can delete categories
-* As a user, can take turns spinning the wheel and then guessing a consonant in the current puzzle within 5 seconds of that spin
-* As a user, can call a correct letter earns the value of the landed spin multiplied by the number of times that the letter appears in the puzzle
-* As a user, when guessing correctly, they can either Buy a vowel for a flat fee of $250.
-* As a user, can continue to buy until out of money or no vowels remain OR Attempt to solve the puzzle OR Spin again and take another guess (unless their spin lands on a turn-losing space like bankrupt)
-* As a user, with the most money by the final round wins.
 * Stretch - As a user can run the Mocha javascript testing
 
 ### &#x1F535; **Technologies Used**
