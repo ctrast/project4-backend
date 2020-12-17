@@ -79,9 +79,10 @@ DevOps
 <li>Heroku - Platform as a service (PaaS) used to build and deploy applications</li>
 </ul>
 
-### &#x1F535; **Components**
+### &#x1F535; **Mocha Testing**
 
-![Components](https://github.com/ycjessie/project4-backend/blob/master/public/image/Components.png)
+![Mocha](#)
+![Mocha](#)
 
 ### &#x1F535; Future Enhancement
 
