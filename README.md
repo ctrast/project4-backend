@@ -78,7 +78,7 @@ DevOps
 </ul>
 
 ### &#x1F535; **Components**
-![Components](https://github.com/ycjessie/project4-backend/public/image/Components.png)
+![Components](https://github.com/ycjessie/project4-backend/blob/master/public/image/Components.png)
 
 ### &#x1F535; Stretch Goals:
 #### Recommended Features
