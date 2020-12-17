@@ -1,6 +1,6 @@
 #  **Project 4**
 
-TBD. 
+Wheel Of Fortune -  guess hidden phrases by guessing letters one at a time. 
 
 ### Installation
 
