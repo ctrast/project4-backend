@@ -7,7 +7,7 @@ Wheel Of Fortune -  guess hidden phrases by guessing letters one at a time.
 No installation
 
 ### &#x1F535; APP URL
-<a href="#" target="_blank">#TBD</a>
+<a href="https://wheel-of-reaction.herokuapp.com/" target="_blank">Wheel of Reaction</a>
 
 
 ### GitHub Project Repo
@@ -32,7 +32,9 @@ Design - Development - Layout
 ### &#x1F535; User Stories
 * As a user, can take turns spinning the wheel and then guessing a consonant in the current puzzle within 5 seconds of that spin 
 * As a user, can call a correct letter earns the value of the landed spin multiplied by the number of times that the letter appears in the puzzle
-$ As a user, when guessing correctly, they can either Buy a vowel for a flat fee of $250. A contestant can continue to buy until out of money or no vowels remain OR Attempt to solve the puzzle OR Spin again and take another guess (unless their spin lands on a turn-losing space like bankrupt)
+* As a user, when guessing correctly, they can either Buy a vowel for a flat fee of $250. 
+* As a user, can continue to buy until out of money or no vowels remain OR Attempt to solve the puzzle OR Spin again and take another guess (unless their spin lands on a turn-losing space like bankrupt)
+* As a user, with the most money by the final round wins.
  
 
 * Stretch - As a user can run the Mocha javascrip testing
@@ -87,13 +89,9 @@ DevOps
 
 ### &#x1F535; Future Enhancement
 <ul>
-<li>#</li>
-<li>#</li>
+<li>Save the Game</li>
+<li>Multiple players over the web</li>
 </ul>
 
-### &#x1F535; Inspiration
-<ul>
-<li> <a href="https://codepen.io/twentysix/pen/abopqNp?editors=1111" target="_blank"> Wheel of fortune</a> by twentysix </li>
-<li> <a href="https://codepen.io/andere_s/pen/oqvroJ" target="_blank"> Wheel of fortune</a> by Andres </li>
-</ul>
+
 
