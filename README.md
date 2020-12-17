@@ -81,8 +81,8 @@ DevOps
 
 ### &#x1F535; **Mocha Testing**
 
-![Mocha](#)
-![Mocha](#)
+![Mocha](https://github.com/ycjessie/project4-backend/blob/master/public/image/Mocha%20testing1.png)
+![Mocha](https://github.com/ycjessie/project4-backend/blob/master/public/image/Mocha%20testing2.png)
 
 ### &#x1F535; Future Enhancement
 
