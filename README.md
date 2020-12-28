@@ -38,7 +38,7 @@ Design - Development - Layout
 * As an admin user, can delete categories
 * Stretch - As a user can run the Mocha javascript testing
 
-### &#x1F535; Routes -CRUD functionality for Categories and Phrases
+### &#x1F535; Routes API - CRUD functionality for Categories and Phrases
  
 GET - All Categories
 https://project-4-wheel-of-fortune.herokuapp.com/
